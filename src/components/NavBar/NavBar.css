@@ -1,0 +1,36 @@
+.nav-container{
+    background-color: #618985;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+button{
+    width: auto;
+    height: 35px;
+    padding: 5px;
+    margin: 20px;
+    background-color: #414535;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.Link:-webkit-any-link {
+    text-decoration: none;
+    color: rgb(12, 11, 11);
+    cursor: pointer;
+}
+.logged-in-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}

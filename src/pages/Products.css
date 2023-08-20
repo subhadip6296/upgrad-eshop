@@ -1,0 +1,5 @@
+.cards-container{
+    dispaly: flex;
+    flex-direction: row;
+    
+}
